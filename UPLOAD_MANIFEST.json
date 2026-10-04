@@ -1,0 +1,552 @@
+{
+  "package": "canopy-cold-plate-cht",
+  "date": "2026-10-04",
+  "comparison_complete": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 112,
+      "sha256": "c0c142e21761b8606bbc8142dd6b4dc26ab74947686c5239c25d455f058ebe50"
+    },
+    {
+      "path": "build_baseline_geometry.ps1",
+      "bytes": 5218,
+      "sha256": "d9a36a637285b9f4dbffa4a0b22ed108a6e7863037dee739ee54dea482b9af22"
+    },
+    {
+      "path": "build_inlet7_geometry.ps1",
+      "bytes": 5455,
+      "sha256": "aa1d0479c4fe8647de46b92a9505e04a9875f46a82e33235c0cc4eff92aa2713"
+    },
+    {
+      "path": "build_outlet7_geometry.ps1",
+      "bytes": 5463,
+      "sha256": "4788edb26c43e7515f8aeaf5eb43d5ccc8995281e23f0b203b645dd3d3c9b9f1"
+    },
+    {
+      "path": "build_pipe_mesh.py",
+      "bytes": 1961,
+      "sha256": "f7c8608dc42090017373f385379a3e33a3ad479572fcbb9abae2b45b129ccf0e"
+    },
+    {
+      "path": "build_report.py",
+      "bytes": 16367,
+      "sha256": "bdf0e2a616c7695c25dd42618788848cfcabb3b14de8a9e3297fd157dded7658"
+    },
+    {
+      "path": "config/environment.json",
+      "bytes": 390,
+      "sha256": "ebb0053f4c501fd2cf7bac8a32e1458094d04230d424b722b3a3fac31d6376e6"
+    },
+    {
+      "path": "config/geometry.json",
+      "bytes": 708,
+      "sha256": "775c4b33cf3adcab3ed6af5a234b0a2d10c9d7e3377d58ac35e890a314207555"
+    },
+    {
+      "path": "config/physics.json",
+      "bytes": 1421,
+      "sha256": "fca75c79b1c2fbbadba79374b14edfd87f98d042643c29afc70d689fb108c448"
+    },
+    {
+      "path": "config/reference_power.json",
+      "bytes": 313,
+      "sha256": "983c3519117490a24cb996760c73578e892703f9e1411cc928416573041b3f8e"
+    },
+    {
+      "path": "config/screening_methods.json",
+      "bytes": 907,
+      "sha256": "31328f63a582b079d6c2da0f928286a43c31bfeccaf983bf0c3dd72f811dba55"
+    },
+    {
+      "path": "config/study_plan.json",
+      "bytes": 1791,
+      "sha256": "4b4932be4572a44b48d48bd43dbf6aa0b4d05362f24edcdf788db481aba448c3"
+    },
+    {
+      "path": "config/water_transport.json",
+      "bytes": 4029,
+      "sha256": "dddcbfb46ea018e2c655e640cb79e51bab0ebea444cdd9793fbb8dcbc3fae680"
+    },
+    {
+      "path": "data/cad/baseline/CAD_Checks.txt",
+      "bytes": 870,
+      "sha256": "b4e0015f092ad5155925375c20d6e3e93bc0018d42b1a95f779a719a5efa3814"
+    },
+    {
+      "path": "data/cad/baseline/Canopy_4Branch_CHT.SLDPRT",
+      "bytes": 93568,
+      "sha256": "4073c53f988b3f1496b2f1cd514e93fe666149cca43b53d0a321c04324067ec5"
+    },
+    {
+      "path": "data/cad/baseline/Canopy_4Branch_CHT.x_t",
+      "bytes": 65709,
+      "sha256": "d2bfe4f08b05a6b78786e81d1a30b56279ca169d8d550de604663a82a1b295a1"
+    },
+    {
+      "path": "data/cad/baseline/Canopy_4Branch_Fluid.SLDPRT",
+      "bytes": 87173,
+      "sha256": "922cb1ab0d41bcc74f9e2c938a4b0e718297b65e00e774000e8a44976d1dcae8"
+    },
+    {
+      "path": "data/cad/baseline/Canopy_4Branch_Fluid.x_t",
+      "bytes": 32000,
+      "sha256": "c58c4a90746c1f88c9276504d893273fcbd903eeb7e8aadab3fabe0c5aad7c44"
+    },
+    {
+      "path": "data/cad/baseline/Canopy_4Branch_Solid.SLDPRT",
+      "bytes": 66657,
+      "sha256": "3f1200a03a25dff82d12b69feb7ce7c4aa221cb4ffdad444876420927a7974f9"
+    },
+    {
+      "path": "data/cad/baseline/Canopy_4Branch_Solid.x_t",
+      "bytes": 35622,
+      "sha256": "8145c9160acbb8091752706f81da0dd071c2c3ed3aba35f327928a5da54f4115"
+    },
+    {
+      "path": "data/cad/inlet7/CAD_Checks.txt",
+      "bytes": 860,
+      "sha256": "cc9a1afef2f9a1595c75842ca133da8362ada57a3afcbd5c39344b59a21885b3"
+    },
+    {
+      "path": "data/cad/inlet7/Canopy_Inlet7_CHT.SLDPRT",
+      "bytes": 98208,
+      "sha256": "ca6ee95c0643728f5722f5ab27ad6321bcb43eda0f694030d59c8cf417a566dd"
+    },
+    {
+      "path": "data/cad/inlet7/Canopy_Inlet7_CHT.x_t",
+      "bytes": 66038,
+      "sha256": "478b7365f10e9b9f417f42f492bdcdace1b5facfc8b0d9d5ecaecc36bca254e0"
+    },
+    {
+      "path": "data/cad/inlet7/Canopy_Inlet7_Fluid.SLDPRT",
+      "bytes": 90071,
+      "sha256": "185206fc5ef54d6bab8fb32314aa51a75a6eee1f39af0e9827454b366fb741bd"
+    },
+    {
+      "path": "data/cad/inlet7/Canopy_Inlet7_Fluid.x_t",
+      "bytes": 32171,
+      "sha256": "52afb55718afc0391afeb7ad2b3d59a0a59335b08dd8e88af3287004d9b3fe52"
+    },
+    {
+      "path": "data/cad/inlet7/Canopy_Inlet7_Solid.SLDPRT",
+      "bytes": 69727,
+      "sha256": "021b64e9d33285ef80a2ccb4f40301d038c36825020237e0b1998a9cb3c12b4b"
+    },
+    {
+      "path": "data/cad/inlet7/Canopy_Inlet7_Solid.x_t",
+      "bytes": 35771,
+      "sha256": "b165fb5c61ec4a8724701ce9c9611c002cdef8dc701c5baf9e3d8b26c359a27a"
+    },
+    {
+      "path": "data/cad/inlet7/design_parameters.json",
+      "bytes": 556,
+      "sha256": "f51f3aba00bd5315adfcfaeef1defe1f4fdbbd5a6d5dd33db1179ce0141ca11a"
+    },
+    {
+      "path": "data/cad/outlet7/CAD_Checks.txt",
+      "bytes": 870,
+      "sha256": "7ab9a135682ee423900f8f53588d82ed80f36a1f97fffda423ee64e82eab54e2"
+    },
+    {
+      "path": "data/cad/outlet7/Canopy_Outlet7_CHT.SLDPRT",
+      "bytes": 99005,
+      "sha256": "191618395ce0f197c45c2200ff04f32ebaa54fcc362cc71253c66354b6cc5a21"
+    },
+    {
+      "path": "data/cad/outlet7/Canopy_Outlet7_CHT.x_t",
+      "bytes": 67083,
+      "sha256": "b10fd46d418fc8ee60b93c9615e33fc5f7ecf0dbc7755e311ea58156a611a6c8"
+    },
+    {
+      "path": "data/cad/outlet7/Canopy_Outlet7_Fluid.SLDPRT",
+      "bytes": 90786,
+      "sha256": "e66b4216fd57ce9bc590cf0c9b4cb79fb98b9977ddbe9c04cf9333191b4fa63a"
+    },
+    {
+      "path": "data/cad/outlet7/Canopy_Outlet7_Fluid.x_t",
+      "bytes": 32681,
+      "sha256": "56f2f9f3f90857d5960e4d56b525141a824230f3c94c25132949a8a231acc328"
+    },
+    {
+      "path": "data/cad/outlet7/Canopy_Outlet7_Solid.SLDPRT",
+      "bytes": 69337,
+      "sha256": "752d35639672584f6229bd7f43775cdcc6c128f0e4cff9584ef1f46659fe80ce"
+    },
+    {
+      "path": "data/cad/outlet7/Canopy_Outlet7_Solid.x_t",
+      "bytes": 36297,
+      "sha256": "59d071355aa436cfa7dc24f924e5e961d5379a5713b8a243fac264156ab4a747"
+    },
+    {
+      "path": "data/cad/outlet7/design_parameters.json",
+      "bytes": 557,
+      "sha256": "73484e7a697b41f53c731c473ef4aa6e47b67c2e5b4be1af50728b96c998e721"
+    },
+    {
+      "path": "data/Cold_Plate_Benchmark.xlsx",
+      "bytes": 19159,
+      "sha256": "52e46bff02516621a973b948cbebbdc27505c57b38770e8ac86a6acf586ba71c"
+    },
+    {
+      "path": "docs/branch_diagnostics.md",
+      "bytes": 5705,
+      "sha256": "86e7885a0989ff64f1eeabd6153ae1f0bbcb88478a74e42023cf8a183e1ffef6"
+    },
+    {
+      "path": "docs/design_study.md",
+      "bytes": 4918,
+      "sha256": "ab76a6682ecfcc56f3796b2211e374b9baeb12f537cf92ebb2585a49f0248ba0"
+    },
+    {
+      "path": "docs/mesh_sensitivity.md",
+      "bytes": 4350,
+      "sha256": "9b6bfe30b85a11d28f06fa63d56a1113cacd61642eb96815ee04cb23d5a9eaa7"
+    },
+    {
+      "path": "docs/milestone_status.md",
+      "bytes": 1092,
+      "sha256": "bb23e94f3f564a730ed953f4019cd0ee8c05512268f932bd61ebd0f588e7c716"
+    },
+    {
+      "path": "docs/pipe_verification.md",
+      "bytes": 3088,
+      "sha256": "9622d7e473e73d828f22d9e9d8a1255688892fb280a125047753156554934e3b"
+    },
+    {
+      "path": "docs/portfolio_summary.md",
+      "bytes": 1302,
+      "sha256": "3fd369a75d3671b9b84e45b4ab8e446499695ef0f5e17faa70414255bd8b8e76"
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "bytes": 4797,
+      "sha256": "93592c00149e3a7cd21c662e6d6972439a7c71e88c0196f71c229c86560ed679"
+    },
+    {
+      "path": "docs/results_overview.md",
+      "bytes": 2606,
+      "sha256": "8c3eb322a399fb340e0936de8ea32a033871d9124f652aaa26efc8a7457da238"
+    },
+    {
+      "path": "docs/technical_report.md",
+      "bytes": 6862,
+      "sha256": "7af345612ae95f6ece0b10bdf6326853bc65cfdc92262f33ae259a76677899f4"
+    },
+    {
+      "path": "equal_power.py",
+      "bytes": 3437,
+      "sha256": "0eb152e5929c22c9fea556e70ecce29073f7b97583c58f4854265c1f8c529b6f"
+    },
+    {
+      "path": "fluent_setup.py",
+      "bytes": 3448,
+      "sha256": "893968a6df0b4a922de45af23a353b3458143d1008034a470a4da9a3d5f093b0"
+    },
+    {
+      "path": "mesh_surface.py",
+      "bytes": 4514,
+      "sha256": "d8c3b764fbc4575c4332ccdae5337b445b754a51aa5dd134290e5b6d9fb34667"
+    },
+    {
+      "path": "mesh_volume.py",
+      "bytes": 1597,
+      "sha256": "6fce7b8e7867d485e1da372bdc3d4d8e15aaa6f3a50d30396669a404f6520ce0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4026,
+      "sha256": "0f9550028eb30db4ec313e1cd9fb063d828c3f0ee75b9603fe9c023f1302411d"
+    },
+    {
+      "path": "requirements-simulation.txt",
+      "bytes": 96,
+      "sha256": "fbca5ba9ddb5cb0cc1ccae0fd5f761f9e44af87e960220cc453dc5c9cc2100d7"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 36,
+      "sha256": "3d20883116cd19db69a6bf3cdaa22e182f5857f7dae386f964d58ed68b479e53"
+    },
+    {
+      "path": "resource_guard.py",
+      "bytes": 1800,
+      "sha256": "1af104ccf47fb8f5f6050637f3d90c3e2aa4c58e3ecc4b51b5a6ae489c4fdf23"
+    },
+    {
+      "path": "results/reference/baseline_base_metrics.json",
+      "bytes": 774,
+      "sha256": "23dbb55a7fd0bd96f0c9d52fe97334bf451e5e211cbc2a6ba1b3c535b16f40e0"
+    },
+    {
+      "path": "results/reference/branch_reynolds.json",
+      "bytes": 4025,
+      "sha256": "41cb7331f5bb85abecf493cd94792fdafba10ee13c259fcb2d453799d75e943f"
+    },
+    {
+      "path": "results/reference/design_results.json",
+      "bytes": 9050,
+      "sha256": "5d88bfab31026c4e0a5d5f843a1a6ecea1fe8455538b30bbdfc1376a0d2fe43a"
+    },
+    {
+      "path": "results/reference/figures/Analytical_Pipe_Verification.png",
+      "bytes": 91293,
+      "sha256": "f2883f711d746ebd5b56abb8f1e84e0a12c41d359989ecd278fe7dfc918f7cc9"
+    },
+    {
+      "path": "results/reference/figures/Finer_Transport_Diagnostics.png",
+      "bytes": 114558,
+      "sha256": "dbd3c43a6b2b334bff95b55072d7b5e3f99fcdb567d3786a504bfd1600809f44"
+    },
+    {
+      "path": "results/reference/figures/Followup_Mesh_Comparison.png",
+      "bytes": 113006,
+      "sha256": "acf9811ecd96a336d0475aab51b67d67b78ddf0eafad0342125a38d4603d5ef3"
+    },
+    {
+      "path": "results/reference/figures/Manifold_Design_Geometry.png",
+      "bytes": 89739,
+      "sha256": "ec38c17c9cdfed64e5fa79c5ad16ed3c152a7325f8e1c69e79eec3fb09a63900"
+    },
+    {
+      "path": "results/reference/figures/manifold_refined.png",
+      "bytes": 86568,
+      "sha256": "76dd97725cd5ff81ca86df5fc8861a7e2fe28dd429e53540746e2507129460fa"
+    },
+    {
+      "path": "results/reference/figures/manifold_screening.png",
+      "bytes": 87971,
+      "sha256": "6a93a1be53864a9aa9911f6db76bfb54a23354cf100c9b40c6c34ad0ddc932ca"
+    },
+    {
+      "path": "results/reference/figures/Refined_Baseline_Heated_Base.png",
+      "bytes": 1024813,
+      "sha256": "020526085f1565a15638f50c7de367c0ab9b9ff91068cbaccdacf0df03bb4c72"
+    },
+    {
+      "path": "results/reference/figures/T2_Coarse_Residuals.png",
+      "bytes": 113938,
+      "sha256": "9c5a4b9b40384e59688408f2f7194fcea7b693d77f8283c534a5b025bbb0d3a6"
+    },
+    {
+      "path": "results/reference/figures/T2_Coarse_TopTemperature.png",
+      "bytes": 105790,
+      "sha256": "5175cef863a2c6f68e6d60f7ab3e6eba62e85832f44a269829f347d0006294b9"
+    },
+    {
+      "path": "results/reference/physics_audit.json",
+      "bytes": 1422,
+      "sha256": "3b137958ba6c696dc12cad44ca0d4ae34d871976e7c156ea1c1c3164c4cd0eee"
+    },
+    {
+      "path": "results/reference/pipe_verification.json",
+      "bytes": 3723,
+      "sha256": "46123dae49bb4d3b72be849d1bbbf2bd50abfe7ab5089500c987f211ee985457"
+    },
+    {
+      "path": "results/reference/records/baseline_refined_diagnostics.json",
+      "bytes": 14348,
+      "sha256": "63e41bad4920f84c3993db099b67216df2a6db2fd30ace8558c8c344c948bb6a"
+    },
+    {
+      "path": "results/reference/records/baseline_screen_boundary_checks.json",
+      "bytes": 1851,
+      "sha256": "bb21384887d6c0d08268afa0e726f0c427b91ba38f82eb747aab185d14cbca02"
+    },
+    {
+      "path": "results/reference/records/baseline_screen_controls.json",
+      "bytes": 2337,
+      "sha256": "345eb2602098c4dcddb1162f42d1788e2ee90d1902e7cd65fa3e6fc5bff2a039"
+    },
+    {
+      "path": "results/reference/records/baseline_screen_convergence.json",
+      "bytes": 878,
+      "sha256": "4959beb0f8e84cb8673980dd7228944396b8e5f5f317fb9da00abcf2596b2a14"
+    },
+    {
+      "path": "results/reference/records/baseline_screen_final_reports.json",
+      "bytes": 1233,
+      "sha256": "7fb8b2a6c2dc318cff1e5535195d68b9457ca0c48a2b12e1141ca2d914bc50bb"
+    },
+    {
+      "path": "results/reference/records/baseline_screen_mesh_checks.json",
+      "bytes": 203,
+      "sha256": "9a60719127728f4f423f30da9c28df7af5a0f29f028160e6c140c977f38fd127"
+    },
+    {
+      "path": "results/reference/records/baseline_screen_methods.json",
+      "bytes": 907,
+      "sha256": "31328f63a582b079d6c2da0f928286a43c31bfeccaf983bf0c3dd72f811dba55"
+    },
+    {
+      "path": "results/reference/records/baseline_screen_volumes.json",
+      "bytes": 101,
+      "sha256": "583a23294326ac11c01589a3400c9920c47c85f1d5bb8d354350cdbe0087bb3f"
+    },
+    {
+      "path": "results/reference/records/inlet7_screen_boundary_checks.json",
+      "bytes": 1854,
+      "sha256": "aef5c542301dd068c8ceb0cd404a1dbab09c884c78318008698fb9f786098a5a"
+    },
+    {
+      "path": "results/reference/records/inlet7_screen_controls.json",
+      "bytes": 2337,
+      "sha256": "345eb2602098c4dcddb1162f42d1788e2ee90d1902e7cd65fa3e6fc5bff2a039"
+    },
+    {
+      "path": "results/reference/records/inlet7_screen_convergence.json",
+      "bytes": 876,
+      "sha256": "78ae75624064e5062513c051a73bb6498b598f90574e975aa0eba29d782fcaa7"
+    },
+    {
+      "path": "results/reference/records/inlet7_screen_final_reports.json",
+      "bytes": 1231,
+      "sha256": "727f87e3518dd726c8e75fc061a1f74f93e88e4a20434648427e6c8609250e79"
+    },
+    {
+      "path": "results/reference/records/inlet7_screen_mesh_checks.json",
+      "bytes": 204,
+      "sha256": "f8e062b20aa108ff052ff0534be0ad0718e54600ba6636e0fbcdd692f8a12114"
+    },
+    {
+      "path": "results/reference/records/inlet7_screen_methods.json",
+      "bytes": 907,
+      "sha256": "31328f63a582b079d6c2da0f928286a43c31bfeccaf983bf0c3dd72f811dba55"
+    },
+    {
+      "path": "results/reference/records/inlet7_screen_volumes.json",
+      "bytes": 102,
+      "sha256": "f82111d974697c80e31328c667a348302a0c35d730d6df2339e99517de9dc9d8"
+    },
+    {
+      "path": "results/reference/records/outlet7_refined_boundary_checks.json",
+      "bytes": 1850,
+      "sha256": "50da0dba29bf6e824a77d81f1bfb024ba057b697e080aaa33b94fcae81d4d2fa"
+    },
+    {
+      "path": "results/reference/records/outlet7_refined_controls.json",
+      "bytes": 2385,
+      "sha256": "987c94b9a64e51fcd23d4cd8b6c1befd533e292b3c3df08fe9b6ac5dc52790c6"
+    },
+    {
+      "path": "results/reference/records/outlet7_refined_convergence.json",
+      "bytes": 888,
+      "sha256": "1479ec530244b6799903151a74885085d4cd31c38746b3c4431556bcfb6435e5"
+    },
+    {
+      "path": "results/reference/records/outlet7_refined_diagnostics.json",
+      "bytes": 14359,
+      "sha256": "4995132b8567a892d47bb9567c556e6fcd9bc4219d24d8cbc3f4ff9f2c39e10d"
+    },
+    {
+      "path": "results/reference/records/outlet7_refined_equal_power_convergence.json",
+      "bytes": 1039,
+      "sha256": "01459acd4e291da88bcee24dd68e5533c217e4ab94e8ee5c10b26d7665a1c22e"
+    },
+    {
+      "path": "results/reference/records/outlet7_refined_equal_power_diagnostics.json",
+      "bytes": 14354,
+      "sha256": "a091d86e7c923bda6dd3a9ffab467421d6a3c9d792783f16e8de37b329d96ba1"
+    },
+    {
+      "path": "results/reference/records/outlet7_refined_equal_power_final_reports.json",
+      "bytes": 1234,
+      "sha256": "9f4428f93f0951e0f3622793789ee29f919e6e0ea08b64b20cf871ec42731a03"
+    },
+    {
+      "path": "results/reference/records/outlet7_refined_final_reports.json",
+      "bytes": 1227,
+      "sha256": "86a6dc465eb4f0c453d5a0236503e99befd0cff720c35b7faed075ad8bff9bc0"
+    },
+    {
+      "path": "results/reference/records/outlet7_refined_mesh_checks.json",
+      "bytes": 203,
+      "sha256": "96f54ffd663f6d0c746b525af7a7516053b9f97f679a9814023cf9a3a9a0f52e"
+    },
+    {
+      "path": "results/reference/records/outlet7_refined_methods.json",
+      "bytes": 897,
+      "sha256": "c15a3e801ba2dbd08e2d3f744b0b1b676fb3d9fbcd9293eb6b03c8d4c704c13b"
+    },
+    {
+      "path": "results/reference/records/outlet7_refined_volumes.json",
+      "bytes": 102,
+      "sha256": "c4328e1b247ddea1db6b6678c9d9b9d6475b28a3f77ad6ba03acb0712c2c71b0"
+    },
+    {
+      "path": "results/reference/records/outlet7_screen_boundary_checks.json",
+      "bytes": 1851,
+      "sha256": "64317e7cbdf4a63b2e2d9a1764f370c53728b2c7bb9e17f6f95901b059a5c376"
+    },
+    {
+      "path": "results/reference/records/outlet7_screen_controls.json",
+      "bytes": 2337,
+      "sha256": "345eb2602098c4dcddb1162f42d1788e2ee90d1902e7cd65fa3e6fc5bff2a039"
+    },
+    {
+      "path": "results/reference/records/outlet7_screen_convergence.json",
+      "bytes": 896,
+      "sha256": "eb04ceb7f468b0f096e67f4efa6ade225da2ccbcadc1a3326018ddfbcb4d074d"
+    },
+    {
+      "path": "results/reference/records/outlet7_screen_final_reports.json",
+      "bytes": 1232,
+      "sha256": "14e04b963ae4d229f959ed654face79f412e3853c3d4a1f5123c211567483743"
+    },
+    {
+      "path": "results/reference/records/outlet7_screen_mesh_checks.json",
+      "bytes": 203,
+      "sha256": "d1d1d18c7ec507d21fdb465e85de7880897e165061b16af4fbb7cc8de7e0b809"
+    },
+    {
+      "path": "results/reference/records/outlet7_screen_methods.json",
+      "bytes": 907,
+      "sha256": "31328f63a582b079d6c2da0f928286a43c31bfeccaf983bf0c3dd72f811dba55"
+    },
+    {
+      "path": "results/reference/records/outlet7_screen_volumes.json",
+      "bytes": 102,
+      "sha256": "ede552e55c7d5f1209bae3c426c2450e3947605cb3c7b388ac1206f265ab7103"
+    },
+    {
+      "path": "results/reference/selection.json",
+      "bytes": 3787,
+      "sha256": "8b6eec1ef985366d91d7b13d6f032588996719def46591011099e68eeb46c342"
+    },
+    {
+      "path": "run_analysis.py",
+      "bytes": 3735,
+      "sha256": "78c31438c6cc6a3804f965dcc2be754a7fa82a28d143806869b311ef8d681931"
+    },
+    {
+      "path": "run_fluent.py",
+      "bytes": 4070,
+      "sha256": "6d5eb3f6e369160dfd4e1f63ede4bceb566bf43151d6660059cc36b077158b61"
+    },
+    {
+      "path": "run_pipe_verification.py",
+      "bytes": 1518,
+      "sha256": "99bb360ff3cd2bb0845c36abed9afb9dee998087113b4addb69c40539ae5a00b"
+    },
+    {
+      "path": "run_validation.py",
+      "bytes": 2485,
+      "sha256": "d99196ea9f2a518ee53b0d5f274b3387a2250000a09616f5ac78b09963e6427f"
+    },
+    {
+      "path": "solve_design.py",
+      "bytes": 7863,
+      "sha256": "e0eff47a177e23aa4bf92bdc6b7eba41f67ef4516dbde2690aef3677e7bc65a1"
+    },
+    {
+      "path": "solve_pipe.py",
+      "bytes": 4256,
+      "sha256": "a9c0175e1a3a95f68176646557d94f4e068eabe8254565af2451322dcd8c9b05"
+    }
+  ]
+}

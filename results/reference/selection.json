@@ -1,0 +1,109 @@
+{
+  "variant": "outlet7",
+  "criterion": "Lowest hydraulic power among the two enlarged-manifold variants at equal flow. This tests whether reduced resistance can offset any equal-flow thermal penalty at equal power; it is not a global optimization.",
+  "screening_power_change_pct": -10.497195141603544,
+  "screening_base_mean_change_K": -0.3489192220915811,
+  "screening_base_max_change_K": -1.0749206542968182,
+  "candidates": [
+    {
+      "case": "inlet7_screen",
+      "mass_flow_kg_h": 22.299999999999997,
+      "static_dp_Pa": 85.79635916128535,
+      "total_pressure_loss_Pa": 97.77762103864409,
+      "hydraulic_power_W": 0.0006071708407278226,
+      "base_mean_C": 40.043143715673295,
+      "base_max_C": 44.54689941406252,
+      "R_base_mean_K_W": 0.08521571857836648,
+      "R_base_max_K_W": 0.10773449707031262,
+      "top_mean_C": 39.65444776841133,
+      "top_max_C": 44.20369873046883,
+      "outlet_bulk_C": 30.65435037066885,
+      "convergence": {
+        "residual": [
+          278.0,
+          8.4757e-07,
+          5.6488e-08,
+          1.1168e-07,
+          5.0124e-08,
+          3.0251e-10
+        ],
+        "energy_residual_limit": 1e-09,
+        "mass_imbalance_pct": 5.270763912207451e-06,
+        "heat_imbalance_pct": 0.0022795216125486295,
+        "last_three_checkpoints": [
+          {
+            "base_mean_K": 313.1931336955709,
+            "base_max_K": 317.6968994140625,
+            "total_loss_Pa": 97.7776178330092
+          },
+          {
+            "base_mean_K": 313.1931390283243,
+            "base_max_K": 317.6968994140625,
+            "total_loss_Pa": 97.77761961659823
+          },
+          {
+            "base_mean_K": 313.1931437156733,
+            "base_max_K": 317.6968994140625,
+            "total_loss_Pa": 97.77762103864409
+          }
+        ],
+        "temperature_stability_range_K": {
+          "base_mean_K": 1.0020102365615458e-05,
+          "base_max_K": 0.0
+        },
+        "total_pressure_stability_fraction": 3.278495476595483e-08
+      },
+      "cells": 333006
+    },
+    {
+      "case": "outlet7_screen",
+      "mass_flow_kg_h": 22.299999999999986,
+      "static_dp_Pa": 83.75838813370183,
+      "total_pressure_loss_Pa": 96.60669228525302,
+      "hydraulic_power_W": 0.0005998997107077143,
+      "base_mean_C": 39.582750792277636,
+      "base_max_C": 43.64107666015633,
+      "R_base_mean_K_W": 0.08291375396138818,
+      "R_base_max_K_W": 0.10320538330078165,
+      "top_mean_C": 39.20737168941605,
+      "top_max_C": 43.29802856445315,
+      "outlet_bulk_C": 30.65686690540781,
+      "convergence": {
+        "residual": [
+          412.0,
+          9.6579e-07,
+          4.5677e-08,
+          9.2751e-08,
+          3.8118e-08,
+          2.4012e-10
+        ],
+        "energy_residual_limit": 1e-09,
+        "mass_imbalance_pct": 4.322215273469259e-06,
+        "heat_imbalance_pct": 0.0003292901434791551,
+        "last_three_checkpoints": [
+          {
+            "base_mean_K": 312.7327377927447,
+            "base_max_K": 316.7910461425781,
+            "total_loss_Pa": 96.60673600713389
+          },
+          {
+            "base_mean_K": 312.7327494915788,
+            "base_max_K": 316.7910766601563,
+            "total_loss_Pa": 96.60669663658959
+          },
+          {
+            "base_mean_K": 312.7327507922776,
+            "base_max_K": 316.7910766601563,
+            "total_loss_Pa": 96.60669228525302
+          }
+        ],
+        "temperature_stability_range_K": {
+          "base_mean_K": 1.2999532941648795e-05,
+          "base_max_K": 3.051757818184342e-05
+        },
+        "total_pressure_stability_fraction": 4.5257610872565843e-07
+      },
+      "cells": 324300
+    }
+  ]
+}

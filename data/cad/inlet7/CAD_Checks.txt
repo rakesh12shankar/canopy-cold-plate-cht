@@ -1,0 +1,16 @@
+SolidWorks revision: 27.4.0
+One connected fluid body; one connected solid body.
+No geometry faults reported by Check3.
+Fluid containment tolerance: 1e-12 m^3. Volume partition tolerance: 1 ppm of block volume.
+Volume partition difference = 0.139742 mm^3 (mass-property integration).
+Full block volume = 225000.000000 mm^3.
+Canopy_Inlet7_Fluid: Fluid_Water, volume=13219.303818 mm^3
+Saved Canopy_Inlet7_Fluid.SLDPRT; warning code=0
+Saved Canopy_Inlet7_Fluid.x_t; warning code=0
+Canopy_Inlet7_Solid: Solid_AlSi10Mg, volume=211780.835924 mm^3
+Saved Canopy_Inlet7_Solid.SLDPRT; warning code=0
+Saved Canopy_Inlet7_Solid.x_t; warning code=0
+Canopy_Inlet7_CHT: Fluid_Water, volume=13219.303818 mm^3
+Canopy_Inlet7_CHT: Solid_AlSi10Mg, volume=211780.835924 mm^3
+Saved Canopy_Inlet7_CHT.SLDPRT; warning code=0
+Saved Canopy_Inlet7_CHT.x_t; warning code=0

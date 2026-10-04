@@ -1,0 +1,128 @@
+{
+  "outlet": {
+    "id": 859,
+    "original_name": "outlet",
+    "lo_mm": [
+      22.059113,
+      0.0,
+      2.0697483
+    ],
+    "hi_mm": [
+      27.950349,
+      0.0,
+      7.9762247
+    ]
+  },
+  "side_ymax": {
+    "id": 858,
+    "original_name": "side_ymax",
+    "lo_mm": [
+      0.0,
+      150.0,
+      0.0
+    ],
+    "hi_mm": [
+      150.0,
+      150.0,
+      10.0
+    ]
+  },
+  "side_xmax": {
+    "id": 857,
+    "original_name": "side_xmax",
+    "lo_mm": [
+      150.0,
+      0.0,
+      0.0
+    ],
+    "hi_mm": [
+      150.0,
+      150.0,
+      10.0
+    ]
+  },
+  "heater_bottom": {
+    "id": 12,
+    "original_name": "heater_bottom",
+    "lo_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hi_mm": [
+      150.0,
+      150.0,
+      0.0
+    ]
+  },
+  "side_ports": {
+    "id": 855,
+    "original_name": "side_ports",
+    "lo_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hi_mm": [
+      150.0,
+      0.0,
+      10.0
+    ]
+  },
+  "side_xmin": {
+    "id": 854,
+    "original_name": "side_xmin",
+    "lo_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hi_mm": [
+      0.0,
+      150.0,
+      10.0
+    ]
+  },
+  "fluid_solid_interface": {
+    "id": 27,
+    "original_name": "region113-region2",
+    "lo_mm": [
+      22.010755,
+      0.0,
+      1.5013628
+    ],
+    "hi_mm": [
+      128.49413,
+      127.44854,
+      8.4967629
+    ]
+  },
+  "inlet": {
+    "id": 11,
+    "original_name": "wall",
+    "lo_mm": [
+      122.05749,
+      0.0,
+      2.0652557
+    ],
+    "hi_mm": [
+      127.92505,
+      0.0,
+      7.9342612
+    ]
+  },
+  "ambient_top": {
+    "id": 856,
+    "original_name": "wall.1:856",
+    "lo_mm": [
+      0.0,
+      0.0,
+      10.0
+    ],
+    "hi_mm": [
+      150.0,
+      150.0,
+      10.0
+    ]
+  }
+}

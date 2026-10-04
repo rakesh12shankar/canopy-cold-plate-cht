@@ -1,0 +1,90 @@
+{
+  "p_v_controls": {
+    "skewness_correction_itr_count": 0
+  },
+  "under_relaxation": {
+    "body-force": 1.0,
+    "density": 1,
+    "mom": 0.8,
+    "pressure": 1.0,
+    "temperature": 1.0
+  },
+  "equations": {
+    "flow": true,
+    "temperature": true
+  },
+  "limits": {
+    "min_pressure": 1,
+    "max_pressure": 50000000000.0,
+    "min_temperature": 1,
+    "max_temperature": 5000
+  },
+  "advanced": {
+    "multi_grid": {
+      "mg_controls": {
+        "pressure": {
+          "cycle_type": "v-cycle",
+          "termination_criteria": 0.001,
+          "stabilization": "none"
+        },
+        "temperature": {
+          "cycle_type": "f-cycle",
+          "termination_criteria": 0.001,
+          "stabilization": "none"
+        },
+        "x-mom": {
+          "cycle_type": "flexible-cycle",
+          "termination_criteria": 0.001,
+          "residual_reduction_tolerance": 0.7
+        },
+        "y-mom": {
+          "cycle_type": "flexible-cycle",
+          "termination_criteria": 0.001,
+          "residual_reduction_tolerance": 0.7
+        },
+        "z-mom": {
+          "cycle_type": "flexible-cycle",
+          "termination_criteria": 0.001,
+          "residual_reduction_tolerance": 0.7
+        }
+      },
+      "amg_controls": {
+        "scalar_parameters": {
+          "fixed_cycle_parameters": {
+            "pre_sweeps": 0,
+            "post_sweeps": 1,
+            "max_cycle": 30
+          },
+          "coarsening_parameters": {
+            "max_coarse_levels": 40,
+            "coarsen_by_interval": 2,
+            "conservative_coarsening": true,
+            "aggressive_coarsening": true,
+            "laplace_coarsening": false
+          },
+          "smoother_type": "Gauss-Seidel"
+        },
+        "flexible_cycle_parameters": {
+          "max_fine_relaxations": 30,
+          "max_coarse_relaxations": 50
+        },
+        "options": {
+          "verbosity": 0
+        }
+      }
+    },
+    "expert": {
+      "spatial_discretization_limiter": {
+        "limiter_type": "default",
+        "cell_to_limiting": "cell-to-face",
+        "limiter_filter": false
+      }
+    },
+    "relaxation_method": "gauss-seidel",
+    "anisotropic_solid_heat_transfer": {
+      "relaxation": 1,
+      "flux": "boundary-stabilized-implicit",
+      "gradient": "standard"
+    }
+  }
+}

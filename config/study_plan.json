@@ -1,0 +1,17 @@
+{
+  "title": "Controlled manifold diameter study",
+  "status": "in_progress",
+  "publishing": "Deferred by user until additions are concluded",
+  "physics": "Same CHT baseline; CoolProp viscosity/conductivity tables; density and cp fixed at 23 C; 200 W; ambient 24 C",
+  "variants": ["baseline", "Inlet7", "Outlet7"],
+  "geometry_constraint": "150x150x10 mm plate, D6 external ports, same branch diameters; D7 internal trunk begins at y10 mm in the selected manifold",
+  "tradeoff": "Coolant volume increases about 9.6%; minimum nominal plate cover falls from 2 to 1.5 mm; sharp internal transition retained",
+  "screening_mesh": {"min_mm": 0.16, "max_mm": 1.2, "curvature_deg": 18, "layers": 5, "growth": 1.2},
+  "confirmation_mesh": {"min_mm": 0.09, "max_mm": 1.2, "curvature_deg": 9, "layers": 8, "growth": 1.2},
+  "equal_flow_kg_h": 22.3,
+  "equal_power_definition": "Qvolume times mass-flow-weighted inlet-to-outlet total-pressure loss; reference is the refined baseline at 22.3 kg/h",
+  "primary_thermal_metrics": ["mean heated-base temperature", "maximum heated-base temperature", "(heated-base mean - Tin)/200 W", "(heated-base maximum - Tin)/200 W"],
+  "other_metrics": ["static pressure drop", "total-pressure loss", "hydraulic pumping power", "branch flow distribution", "coolant volume"],
+  "acceptance": {"flow_residual": 1e-6, "energy_residual": 1e-9, "mass_imbalance_percent": 0.01, "heat_imbalance_percent": 0.01, "base_temperature_stability_range_K": 0.0001, "total_pressure_stability_fraction": 0.0001, "stability_checkpoints": 3},
+  "completion": "Analytical pipe verification; matched screening of all three geometries; refine promising design against existing refined baseline; compare at equal hydraulic power; report limitations and retained or absent improvements"
+}

@@ -1,0 +1,11 @@
+{
+  "cells": {
+    "fluid_water": 144874,
+    "solid_alsi10mg": 191088
+  },
+  "minimum_orthogonal_quality": {
+    "fluid_water": 0.22283689,
+    "solid_alsi10mg": 0.2442103
+  },
+  "layers": 5
+}

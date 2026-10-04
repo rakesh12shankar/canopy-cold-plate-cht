@@ -1,0 +1,22 @@
+{
+  "variant": "Outlet7",
+  "enlarged_trunk_x_m": 0.025,
+  "internal_trunk_diameter_m": 0.007,
+  "unchanged_port_diameter_m": 0.006,
+  "step_start_y_m": 0.01,
+  "trunk_end_y_m": 0.125,
+  "plate_m": [
+    0.15,
+    0.15,
+    0.01
+  ],
+  "branch_diameters_m": [
+    0.0031,
+    0.0037,
+    0.0044,
+    0.0049
+  ],
+  "minimum_nominal_cover_m": 0.0015,
+  "constraint": "Footprint, thickness, external ports and branches fixed. Coolant volume increases; report this tradeoff.",
+  "transition": "Sharp internal step, not a fillet or taper."
+}

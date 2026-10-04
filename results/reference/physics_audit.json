@@ -1,0 +1,44 @@
+[
+  {
+    "case": "inlet7_screen",
+    "identical_physics": {
+      "general": true,
+      "models": true,
+      "materials": true,
+      "named_expressions": true,
+      "wall_heater_bottom": true,
+      "wall_ambient_top": true,
+      "wall_fluid_solid_interface": true,
+      "wall_fluid_solid_interface-shadow": true,
+      "wall_side_xmin": true,
+      "wall_side_xmax": true,
+      "wall_side_ymax": true,
+      "wall_side_ports": true,
+      "inlet_temperature": true,
+      "outlet": true,
+      "methods": true
+    },
+    "inlet_profile_note": "Peak velocity calibrated independently to the same integrated 22.3 kg/h; geometry-specific mesh IDs are not physical assumptions."
+  },
+  {
+    "case": "outlet7_screen",
+    "identical_physics": {
+      "general": true,
+      "models": true,
+      "materials": true,
+      "named_expressions": true,
+      "wall_heater_bottom": true,
+      "wall_ambient_top": true,
+      "wall_fluid_solid_interface": true,
+      "wall_fluid_solid_interface-shadow": true,
+      "wall_side_xmin": true,
+      "wall_side_xmax": true,
+      "wall_side_ymax": true,
+      "wall_side_ports": true,
+      "inlet_temperature": true,
+      "outlet": true,
+      "methods": true
+    },
+    "inlet_profile_note": "Peak velocity calibrated independently to the same integrated 22.3 kg/h; geometry-specific mesh IDs are not physical assumptions."
+  }
+]

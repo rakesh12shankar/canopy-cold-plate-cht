@@ -1,0 +1,35 @@
+{
+  "residual": [
+    278.0,
+    8.4757e-07,
+    5.6488e-08,
+    1.1168e-07,
+    5.0124e-08,
+    3.0251e-10
+  ],
+  "energy_residual_limit": 1e-09,
+  "mass_imbalance_pct": 5.270763912207451e-06,
+  "heat_imbalance_pct": 0.0022795216125486295,
+  "last_three_checkpoints": [
+    {
+      "base_mean_K": 313.1931336955709,
+      "base_max_K": 317.6968994140625,
+      "total_loss_Pa": 97.7776178330092
+    },
+    {
+      "base_mean_K": 313.1931390283243,
+      "base_max_K": 317.6968994140625,
+      "total_loss_Pa": 97.77761961659823
+    },
+    {
+      "base_mean_K": 313.1931437156733,
+      "base_max_K": 317.6968994140625,
+      "total_loss_Pa": 97.77762103864409
+    }
+  ],
+  "temperature_stability_range_K": {
+    "base_mean_K": 1.0020102365615458e-05,
+    "base_max_K": 0.0
+  },
+  "total_pressure_stability_fraction": 3.278495476595483e-08
+}

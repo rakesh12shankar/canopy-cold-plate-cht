@@ -1,0 +1,11 @@
+{
+  "recorded_platform": "Windows",
+  "Fluent": "2024 R1 (24.1.0)",
+  "SolidWorks": "2019, revision 27.4.0",
+  "PyFluent": "0.26.0",
+  "CoolProp": "8.0.0",
+  "precision": "double",
+  "processes": 1,
+  "license": "Commercial Fluent required for CFD; SolidWorks required only to regenerate CAD",
+  "analysis": "Compact-record analysis requires Python, numpy and matplotlib only"
+}

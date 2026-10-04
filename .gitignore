@@ -1,0 +1,12 @@
+.generated/
+__pycache__/
+*.pyc
+*.cas.h5
+*.dat.h5
+*.msh.h5
+*.msh
+*.ip
+*.trn
+FM_*/
+serverinfo*
+*.lock

@@ -1,0 +1,38 @@
+{
+  "p_v_coupling": {
+    "flow_scheme": "Coupled"
+  },
+  "flux_type": {
+    "pbns_cases": {
+      "flux_auto_select": true
+    }
+  },
+  "discretization_scheme": {
+    "mom": "second-order-upwind",
+    "pressure": "second-order",
+    "temperature": "second-order-upwind"
+  },
+  "pseudo_time_method": {
+    "formulation": {
+      "coupled_solver": "global-time-step"
+    }
+  },
+  "expert": {
+    "numerics_pbns": {
+      "implicit_bodyforce_treatment": false,
+      "velocity_formulation": "absolute",
+      "physical_velocity_formulation": false,
+      "disable_rhie_chow_flux": false,
+      "presto_pressure_scheme": false,
+      "first_to_second_order_blending": 1.0
+    }
+  },
+  "gradient_scheme": "least-square-cell-based",
+  "high_order_term_relaxation": {
+    "enable": false
+  },
+  "warped_face_gradient_correction": {
+    "enable": true,
+    "mode": "fast"
+  }
+}

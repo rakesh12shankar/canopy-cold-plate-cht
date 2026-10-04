@@ -1,0 +1,8 @@
+{
+  "case": "baseline_refined",
+  "hydraulic_power_W": 0.0006573368487493241,
+  "total_pressure_loss_Pa": 105.8562582068392,
+  "mass_flow_kg_s": 0.006194444444444433,
+  "definition": "abs(mdot)/rho * (mass-weighted total pressure inlet - outlet)",
+  "source": "Transport_Finer/transport_diagnostics.json"
+}

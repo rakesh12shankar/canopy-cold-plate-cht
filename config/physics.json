@@ -1,0 +1,38 @@
+{
+  "paper": "https://doi.org/10.1016/j.ijthermalsci.2025.109918",
+  "property_source": "https://coolprop.org/fluid_properties/fluids/Water.html",
+  "property_api": "https://coolprop.org/coolprop/HighLevelAPI.html",
+  "CoolProp_version": "8.0.0",
+  "property_assumption": "Initial case: constant liquid-water properties at 23 degC and 101325 Pa; air properties frozen at 304 K. These are implementation choices, not tabulated paper inputs.",
+  "water": {
+    "density": 997.5413850701226,
+    "viscosity": 0.0009321257821215235,
+    "specific_heat": 4182.239532932733,
+    "thermal_conductivity": 0.6031938305197464
+  },
+  "air": {
+    "density": 1.1614686176963267,
+    "viscosity": 1.8729544063931744e-05,
+    "specific_heat": 1006.5254652026254,
+    "thermal_conductivity": 0.026680901029290514
+  },
+  "air_film_temperature_K": 304.0,
+  "mass_flow_kg_s": 0.006194444444444444,
+  "inlet_temperature_K": 296.15,
+  "ambient_temperature_K": 297.15,
+  "heat_input_W": 200.0,
+  "heated_area_m2": 0.0225,
+  "heat_flux_W_m2": 8888.888888888889,
+  "solid": {
+    "density": 2590.0,
+    "specific_heat": 915.0,
+    "kx": 123.4,
+    "ky": 123.4,
+    "kz": 131.0
+  },
+  "mean_inlet_velocity_m_s": 0.2196236261576612,
+  "trunk_reynolds": 1410.2194817493441,
+  "adiabatic_bulk_outlet_K": 303.8700254221341,
+  "Ra_per_kelvin": 295823.655036427,
+  "discrete_profile_peak_m_s": 0.4339420076770354
+}

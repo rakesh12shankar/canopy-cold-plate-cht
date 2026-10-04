@@ -1,0 +1,25 @@
+{
+  "ambient_top": {
+    "area_m2": 0.0225,
+    "mean_C": 39.282940999391144,
+    "maximum_C": 44.18292164227529,
+    "minimum_C": 33.090740527749404,
+    "faces": 20600
+  },
+  "heater_bottom": {
+    "area_m2": 0.0225,
+    "mean_C": 39.669627486821355,
+    "maximum_C": 44.52627305161445,
+    "minimum_C": 33.61102037898593,
+    "faces": 20705,
+    "hottest_face_centroid_mm": [
+      0.25649006324552875,
+      149.74355573164115,
+      0.0
+    ],
+    "R_mean_C_K_W": 0.08334813743410678,
+    "R_maximum_C_K_W": 0.10763136525807226
+  },
+  "method": "Offline saved boundary-face SV_T with polygon-area weighting; top mean/max cross-checked against prior Fluent reports within 0.001 K.",
+  "source_case": "Transport_Finer/Canopy_T2_Finer8_Transport"
+}

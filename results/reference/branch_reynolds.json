@@ -1,0 +1,119 @@
+[
+  {
+    "case": "baseline_refined",
+    "section_location_x_mm": 75,
+    "sections": [
+      {
+        "branch": 1,
+        "flow_kg_h": 3.704856687534492,
+        "diameter_mm": 3.1,
+        "bulk_temperature_C": 27.9575344610937,
+        "viscosity_Pa_s": 0.0008334726548753218,
+        "Re_nominal_diameter": 507.1377989127549
+      },
+      {
+        "branch": 2,
+        "flow_kg_h": 5.036487493300521,
+        "diameter_mm": 3.7,
+        "bulk_temperature_C": 26.6405094098763,
+        "viscosity_Pa_s": 0.0008579368684998092,
+        "Re_nominal_diameter": 561.1491666376214
+      },
+      {
+        "branch": 3,
+        "flow_kg_h": 6.434996876710012,
+        "diameter_mm": 4.4,
+        "bulk_temperature_C": 26.3629127840033,
+        "viscosity_Pa_s": 0.000863366194267672,
+        "Re_nominal_diameter": 599.1123088081365
+      },
+      {
+        "branch": 4,
+        "flow_kg_h": 7.0689853768979525,
+        "diameter_mm": 4.8999999999999995,
+        "bulk_temperature_C": 28.37378175372345,
+        "viscosity_Pa_s": 0.0008258943234403912,
+        "Re_nominal_diameter": 617.7946456257928
+      }
+    ],
+    "interpretation": "Measured midbranch flow and bulk viscosity; nominal circular diameter. Local flow features and full-domain property range need separate assessment."
+  },
+  {
+    "case": "outlet7_refined",
+    "section_location_x_mm": 75,
+    "sections": [
+      {
+        "branch": 1,
+        "flow_kg_h": 3.0707246951551133,
+        "diameter_mm": 3.1,
+        "bulk_temperature_C": 28.535591652152448,
+        "viscosity_Pa_s": 0.0008229483606402483,
+        "Re_nominal_diameter": 425.71036200802575
+      },
+      {
+        "branch": 2,
+        "flow_kg_h": 4.630871227382867,
+        "diameter_mm": 3.7,
+        "bulk_temperature_C": 26.97751982324121,
+        "viscosity_Pa_s": 0.0008513455084082881,
+        "Re_nominal_diameter": 519.9513968305354
+      },
+      {
+        "branch": 3,
+        "flow_kg_h": 6.721004234739106,
+        "diameter_mm": 4.4,
+        "bulk_temperature_C": 26.164034262429936,
+        "viscosity_Pa_s": 0.0008672559255583784,
+        "Re_nominal_diameter": 622.9337117876613
+      },
+      {
+        "branch": 4,
+        "flow_kg_h": 7.836535342671276,
+        "diameter_mm": 4.8999999999999995,
+        "bulk_temperature_C": 27.954761103116937,
+        "viscosity_Pa_s": 0.0008335231475182957,
+        "Re_nominal_diameter": 678.6064285046758
+      }
+    ],
+    "interpretation": "Measured midbranch flow and bulk viscosity; nominal circular diameter. Local flow features and full-domain property range need separate assessment."
+  },
+  {
+    "case": "outlet7_refined_equal_power",
+    "section_location_x_mm": 75,
+    "sections": [
+      {
+        "branch": 1,
+        "flow_kg_h": 3.1930572283909817,
+        "diameter_mm": 3.1,
+        "bulk_temperature_C": 28.338812460991335,
+        "viscosity_Pa_s": 0.0008265309855762451,
+        "Re_nominal_diameter": 440.7511834090906
+      },
+      {
+        "branch": 2,
+        "flow_kg_h": 4.825592884806937,
+        "diameter_mm": 3.7,
+        "bulk_temperature_C": 26.793347777328222,
+        "viscosity_Pa_s": 0.0008549476056292136,
+        "Re_nominal_diameter": 539.5318321152661
+      },
+      {
+        "branch": 3,
+        "flow_kg_h": 7.007152193021635,
+        "diameter_mm": 4.4,
+        "bulk_temperature_C": 26.01412689681092,
+        "viscosity_Pa_s": 0.0008701878629347357,
+        "Re_nominal_diameter": 647.2670065641325
+      },
+      {
+        "branch": 4,
+        "flow_kg_h": 8.132713002384149,
+        "diameter_mm": 4.8999999999999995,
+        "bulk_temperature_C": 27.78758542699643,
+        "viscosity_Pa_s": 0.0008365668013844764,
+        "Re_nominal_diameter": 701.691730853103
+      }
+    ],
+    "interpretation": "Measured midbranch flow and bulk viscosity; nominal circular diameter. Local flow features and full-domain property range need separate assessment."
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "residual": [
+    1504.0,
+    9.9758e-07,
+    2.4994e-08,
+    4.365e-08,
+    2.5558e-08,
+    6.4052e-11
+  ],
+  "mass_imbalance_pct": 4.1497199577263904e-08,
+  "heat_imbalance_pct": 2.777995417369006e-06,
+  "target_power_W": 0.0006573368487493241,
+  "achieved_power_W": 0.0006569668048464227,
+  "power_error_pct": -0.05629441033245808,
+  "fixed_inlet_peak_m_s": 0.4535996422659726,
+  "last_three_checkpoints": [
+    {
+      "base_mean_K": 312.2274839348825,
+      "base_max_K": 316.2615966796875,
+      "total_loss_Pa": 101.68789136498609
+    },
+    {
+      "base_mean_K": 312.2275178730226,
+      "base_max_K": 316.2616271972656,
+      "total_loss_Pa": 101.6880504012931
+    },
+    {
+      "base_mean_K": 312.2275189115045,
+      "base_max_K": 316.2616271972656,
+      "total_loss_Pa": 101.68804816161804
+    }
+  ],
+  "temperature_stability_range_K": {
+    "base_mean_K": 3.497662197560203e-05,
+    "base_max_K": 3.0517578125e-05
+  },
+  "total_pressure_stability_fraction": 1.5639626277218623e-06
+}
