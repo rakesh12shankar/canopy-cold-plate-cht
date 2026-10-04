@@ -11,7 +11,7 @@ A numerical reconstruction of a four-branch liquid cold plate, with analytical v
 - [Technical report](docs/technical_report.md): question, methods, results and limitations.
 - [Results overview](docs/results_overview.md) and [controlled design study](docs/design_study.md).
 - [Reproduction instructions](docs/reproducibility.md): dependencies, commands and evidence map.
-- [Portfolio and resume summary](docs/portfolio_summary.md).
+- [Portfolio summary](docs/portfolio_summary.md).
 - [Milestone status](docs/milestone_status.md).
 
 ![Refined manifold comparison](results/reference/figures/manifold_refined.png)

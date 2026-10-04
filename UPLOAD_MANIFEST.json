@@ -35,8 +35,8 @@
     },
     {
       "path": "build_report.py",
-      "bytes": 16367,
-      "sha256": "bdf0e2a616c7695c25dd42618788848cfcabb3b14de8a9e3297fd157dded7658"
+      "bytes": 16030,
+      "sha256": "903f8c95d6c8589ebb6419f26a825137a6967419a5ec118c13c400d0a22c9799"
     },
     {
       "path": "config/environment.json",
@@ -220,8 +220,8 @@
     },
     {
       "path": "docs/portfolio_summary.md",
-      "bytes": 1302,
-      "sha256": "3fd369a75d3671b9b84e45b4ab8e446499695ef0f5e17faa70414255bd8b8e76"
+      "bytes": 976,
+      "sha256": "acd6f16ed56343309d0c7ed773d550011080de00ad1bb32d5de323e94b16b6fd"
     },
     {
       "path": "docs/reproducibility.md",
@@ -260,8 +260,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4026,
-      "sha256": "0f9550028eb30db4ec313e1cd9fb063d828c3f0ee75b9603fe9c023f1302411d"
+      "bytes": 4015,
+      "sha256": "7bf587a911cab20546675ae1a60ae1d87c233bf29792dffc0f14f2181e9ea909"
     },
     {
       "path": "requirements-simulation.txt",

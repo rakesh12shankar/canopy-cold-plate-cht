@@ -1,10 +1,6 @@
-# Portfolio and resume summary
+# Portfolio summary
 
 **Project:** canopy cold-plate conjugate heat-transfer study in SolidWorks, ANSYS Fluent and Python.
-
-Supported resume bullet:
-
-> Developed a SolidWorks–ANSYS Fluent conjugate heat-transfer model of a four-branch liquid cold plate; assessed mesh and water-property sensitivities, quantified branch flow and pressure losses, and independently verified pipe pressure and bulk-energy predictions to within 0.04%.
 
 The refined equal-flow and equal-power comparisons are complete.
 

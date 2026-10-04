@@ -90,13 +90,9 @@ The load is 0.889 W/cm² over the footprint. This is a thermal-fluid portfolio s
 
 See [commands and evidence map](reproducibility.md). Original geometry, numerical records and regenerated plots are included. Publisher PDFs, author correspondence, development transcripts, machine/license settings and full native solver binaries are excluded from this source package. Ansys licensing is required for new CFD runs. Source automation and documentation were prepared with AI assistance and checked against saved numerical evidence. No open-source reuse license is selected.
 ''')
-    write('docs/portfolio_summary.md',f'''# Portfolio and resume summary
+    write('docs/portfolio_summary.md',f'''# Portfolio summary
 
 **Project:** canopy cold-plate conjugate heat-transfer study in SolidWorks, ANSYS Fluent and Python.
-
-Supported resume bullet:
-
-> Developed a SolidWorks–ANSYS Fluent conjugate heat-transfer model of a four-branch liquid cold plate; assessed mesh and water-property sensitivities, quantified branch flow and pressure losses, and independently verified pipe pressure and bulk-energy predictions to within 0.04%.
 
 {status}
 
@@ -127,7 +123,7 @@ A numerical reconstruction of a four-branch liquid cold plate, with analytical v
 - [Technical report](docs/technical_report.md): question, methods, results and limitations.
 - [Results overview](docs/results_overview.md) and [controlled design study](docs/design_study.md).
 - [Reproduction instructions](docs/reproducibility.md): dependencies, commands and evidence map.
-- [Portfolio and resume summary](docs/portfolio_summary.md).
+- [Portfolio summary](docs/portfolio_summary.md).
 - [Milestone status](docs/milestone_status.md).
 
 ![Refined manifold comparison](results/reference/figures/manifold_refined.png)
